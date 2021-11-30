@@ -10,7 +10,7 @@ namespace RAP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Visual studio or Burst!");
+            Console.WriteLine("git or Burst!");
         }
     }
 }
