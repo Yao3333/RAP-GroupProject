@@ -8,11 +8,11 @@ namespace RAP.Research
 {
     
     public enum Campus { Hobart, Launceston, CradleCoast }
-    
+    protected enum Type { Staff, Student }
 
     class Researcher
     {
-        protected enum Type { Staff, Student }
+        
         public Researcher()
         {
 
