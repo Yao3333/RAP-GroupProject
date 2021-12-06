@@ -8,9 +8,7 @@ namespace RAP.Research
 {
     class Student : Researcher
     {
-        public String degree()
-        {
-            return 0;
-        }
+        public String degree { get; private set; }
+
     }
 }

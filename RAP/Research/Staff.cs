@@ -8,11 +8,11 @@ namespace RAP.Research
 {
     class Staff : Researcher
     {
-        public float threeYearAverage() 
+        public float ThreeYearAverage() 
         {
             return 0;
         }
-        public float performance()
+        public float Performance()
         {
             return 0;
         }

@@ -6,20 +6,18 @@ using System.Threading.Tasks;
 
 namespace RAP.Research
 {
-    privite enum Type { Conference, Journal, Other }
+    public enum Type { Conference, Journal, Other }
     class Publication
     {
-        public Publication () 
-        {
+        
+        public String doi { get; private set; }
+        public String title { get; private set; }
+        public String authors { get; private set; }
+        public DateTime year { get; private set; }
+        public Type outputType { get; private set; }
+        public String cite_as { get; private set; }
+        public DateTime available { get; private set; }
 
-        }
-
-        public String doi { get; set; }
-        public String title { get; set; }
-        public String authors { get; set; }
-        public DateTime year { get; set; }
-        public Type outputType { get; set; }
-        public String cite_as { get; set; }
-        public DateTime available { get; set; }
+        public int Age() { }
     }
 }
