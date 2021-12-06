@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RAP.Controller
+namespace RAP.Database
 {
-    class Class1
+    class ResearcherAdapter
     {
     }
 }
