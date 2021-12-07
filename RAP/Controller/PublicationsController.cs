@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace RAP.Controller
 {
-    class PublicationsController
+    public class PublicationsController
     {
+        private   
     }
 }
